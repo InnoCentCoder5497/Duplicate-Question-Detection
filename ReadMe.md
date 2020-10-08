@@ -14,6 +14,10 @@ called “siamese”. The main idea behind siamese networks is that they can lea
 useful data descriptors that can be further used to compare between the inputs 
 of the respective subnetworks.
 
+### Siamese Network Architecture
+![Siamese](./imgs/siamese.png)
+### Triplet Loss
+![Triplet](./imgs/triplet.png)
 
 In this project, I have the Siamese network along with Triplet-Loss function
 to train the duplicate question detector.
@@ -114,6 +118,20 @@ Q2 : ['when', 'can', 'i', 'see', 'you', 'again', '?']
 Similarity Score : 0.7307695031166077
 Is duplicate : True
 ```
+
+## Result
+Loss Curve
+
+
+![Loss](./imgs/LossCurve.png)
+
+Accuracy Curve on Validation set
+
+
+![Accuracy](./imgs/AccCurve.png)
+
+
+Best Validation Accuracy : `70.654`%
 
 # References
 - Siamese Network - Bromley, Jane, et al. “Signature verification using a” siamese” time delay neural network.” Advances in neural information processing systems. 1994.
